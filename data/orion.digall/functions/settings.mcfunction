@@ -1,3 +1,9 @@
+# ------------------------------------------------------------- #
+# settings.mcfunction
+# author:orion
+# ------------------------------------------------------------- #
+#tellraw @a [{"text":"[debug] settings","italic":true,"color":"red"}]
+
 tellraw @s [{"text":"\u00A7m                                                                                ","color":"dark_gray"}]
 tellraw @s [{"text":"                              Digall Settings\n"}]
 

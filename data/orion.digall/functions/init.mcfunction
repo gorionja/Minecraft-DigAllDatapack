@@ -15,6 +15,7 @@ scoreboard objectives add DAD_SneakTime minecraft.custom:minecraft.sneak_time
 scoreboard objectives add DAD_Setting dummy
 scoreboard objectives add DAD_Status dummy
 scoreboard objectives add DAD_Durability dummy
+scoreboard objectives add DAD_Random dummy
 
 ### ツール耐久度の減少フラグ（0:OFF 1:ON<デフォルト>）
 ### ONにすると破壊したブロックの数だけツール耐久度が減少するようになる。

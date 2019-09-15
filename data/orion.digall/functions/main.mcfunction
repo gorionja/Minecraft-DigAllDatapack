@@ -13,3 +13,5 @@ execute as @a[scores={DAD_UsedDPSvl=1..}] at @s run function orion.digall:if_use
 
 ### スニーク時間をリセット
 scoreboard players set @a DAD_SneakTime 0
+
+gamerule sendCommandFeedback true

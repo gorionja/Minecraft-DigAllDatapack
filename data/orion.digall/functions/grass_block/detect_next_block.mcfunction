@@ -23,3 +23,5 @@ execute positioned ~1 ~1 ~-1 if block ~ ~ ~ minecraft:grass_block run function o
 execute positioned ~-1 ~1 ~ if block ~ ~ ~ minecraft:grass_block run function orion.digall:grass_block/destroy
 execute positioned ~-1 ~1 ~1 if block ~ ~ ~ minecraft:grass_block run function orion.digall:grass_block/destroy
 execute positioned ~-1 ~1 ~-1 if block ~ ~ ~ minecraft:grass_block run function orion.digall:grass_block/destroy
+
+tellraw @a ["",{"text":"\n"}]

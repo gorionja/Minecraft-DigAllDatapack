@@ -16,5 +16,7 @@ execute unless entity @s[nbt={SelectedItem:{tag:{Enchantments:[{lvl:1,id:"minecr
 # 現在のスコアボードの値を耐久度に代入
 execute store result entity @s SelectedItem.tag.Damage short 1 run scoreboard players get @s DAD_Durability
 
-# gamerule sendCommandFeedback false
-# gamerule sendCommandFeedback true
+# アマスタ削除
+kill @e[name=Unbreaking_randomizer_lv1]
+kill @e[name=Unbreaking_randomizer_lv2]
+kill @e[name=Unbreaking_randomizer_lv3]
