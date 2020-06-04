@@ -2,7 +2,7 @@ gamerule sendCommandFeedback false
 tellraw @s {"text": "                                                                                ", "strikethrough": true}
 tellraw @s {"text": "                             DigAll Settings"}
 tellraw @s {"text": "                                                                                ", "strikethrough": true}
-tellraw @s {"text": "Datapack version: 2.0.0 for Minecraft 1.14.x, 1.15.x, 1.16.x", "color": "white"}
+tellraw @s {"text": "Datapack version: 2.0.1 for Minecraft 1.14.x, 1.15.x, 1.16.x", "color": "white"}
 tellraw @s {"text": " "}
 function orion.digall:settings/setting_digall
 function orion.digall:settings/setting_auto_collect
