@@ -1,1 +1,1 @@
-tellraw @s {"text": "\u8a2d\u5b9a\u306e\u521d\u671f\u5316", "color": "yellow", "bold": true, "clickEvent": {"action": "run_command", "value": "/trigger DAD_SETTING_TRG set 112"}, "hoverEvent": {"action": "show_text", "value": "click"}}
+tellraw @s {"text": "\u8a2d\u5b9a\u306e\u521d\u671f\u5316", "color": "yellow", "bold": true, "clickEvent": {"action": "run_command", "value": "/trigger DAD_SETTING_TRG set 175"}, "hoverEvent": {"action": "show_text", "value": "click"}}
